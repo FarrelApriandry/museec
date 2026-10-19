@@ -1,0 +1,632 @@
+{
+  "id": "mataram-slow-living",
+  "name": "1. Slow Living Under the Sultan's Sky (Mataram 1610s)",
+  "tempo": 84,
+  "swing": 0.15,
+  "stepsCount": 16,
+  "masterFx": {
+    "bitcrusher": {
+      "enabled": true,
+      "bits": 12,
+      "downsample": 1
+    },
+    "delay": {
+      "enabled": true,
+      "time": "8n",
+      "feedback": 0.35,
+      "wet": 0.22
+    },
+    "filter": {
+      "enabled": true,
+      "cutoff": 11000,
+      "resonance": 1
+    }
+  },
+  "tracks": [
+    {
+      "id": "track-1",
+      "name": "Ch 1: Saron / Suling Lead",
+      "channelNumber": 1,
+      "type": "lead",
+      "color": "#06b6d4",
+      "muted": false,
+      "solo": false,
+      "volume": -1,
+      "pan": 0,
+      "waveform": "square",
+      "envelope": {
+        "attack": 0.015,
+        "decay": 0.24,
+        "sustain": 0.45,
+        "release": 0.18
+      },
+      "arp": {
+        "enabled": false,
+        "rate": "1/32",
+        "pattern": "minor",
+        "octaves": 1
+      },
+      "octaveOffset": 0,
+      "steps": [
+        {
+          "active": true,
+          "note": "A4",
+          "velocity": 0.95,
+          "gate": 0.75
+        },
+        {
+          "active": false,
+          "note": "A4",
+          "velocity": 0.8,
+          "gate": 0.5
+        },
+        {
+          "active": true,
+          "note": "C5",
+          "velocity": 0.85,
+          "gate": 0.65
+        },
+        {
+          "active": true,
+          "note": "B4",
+          "velocity": 0.8,
+          "gate": 0.5
+        },
+        {
+          "active": true,
+          "note": "E5",
+          "velocity": 0.95,
+          "gate": 0.85
+        },
+        {
+          "active": false,
+          "note": "E5",
+          "velocity": 0.8,
+          "gate": 0.5
+        },
+        {
+          "active": true,
+          "note": "F5",
+          "velocity": 0.9,
+          "gate": 0.7
+        },
+        {
+          "active": true,
+          "note": "E5",
+          "velocity": 0.85,
+          "gate": 0.5
+        },
+        {
+          "active": true,
+          "note": "C5",
+          "velocity": 0.9,
+          "gate": 0.7
+        },
+        {
+          "active": false,
+          "note": "C5",
+          "velocity": 0.8,
+          "gate": 0.5
+        },
+        {
+          "active": true,
+          "note": "B4",
+          "velocity": 0.85,
+          "gate": 0.6
+        },
+        {
+          "active": true,
+          "note": "A4",
+          "velocity": 0.85,
+          "gate": 0.5
+        },
+        {
+          "active": true,
+          "note": "B4",
+          "velocity": 0.9,
+          "gate": 0.7
+        },
+        {
+          "active": true,
+          "note": "C5",
+          "velocity": 0.85,
+          "gate": 0.5
+        },
+        {
+          "active": true,
+          "note": "E5",
+          "velocity": 0.95,
+          "gate": 0.8
+        },
+        {
+          "active": true,
+          "note": "A4",
+          "velocity": 0.75,
+          "gate": 0.45
+        }
+      ]
+    },
+    {
+      "id": "track-2",
+      "name": "Ch 2: Bonang Chimes (Arp)",
+      "channelNumber": 2,
+      "type": "arp",
+      "color": "#ec4899",
+      "muted": false,
+      "solo": false,
+      "volume": -4,
+      "pan": -0.2,
+      "waveform": "pulse",
+      "pulseWidth": 0.25,
+      "envelope": {
+        "attack": 0.005,
+        "decay": 0.1,
+        "sustain": 0.2,
+        "release": 0.08
+      },
+      "arp": {
+        "enabled": true,
+        "rate": "1/32",
+        "pattern": "minor",
+        "octaves": 2
+      },
+      "octaveOffset": 0,
+      "steps": [
+        {
+          "active": true,
+          "note": "E4",
+          "velocity": 0.75,
+          "gate": 0.35
+        },
+        {
+          "active": true,
+          "note": "A4",
+          "velocity": 0.65,
+          "gate": 0.3
+        },
+        {
+          "active": true,
+          "note": "B4",
+          "velocity": 0.7,
+          "gate": 0.35
+        },
+        {
+          "active": true,
+          "note": "E4",
+          "velocity": 0.65,
+          "gate": 0.3
+        },
+        {
+          "active": true,
+          "note": "C4",
+          "velocity": 0.75,
+          "gate": 0.35
+        },
+        {
+          "active": true,
+          "note": "E4",
+          "velocity": 0.65,
+          "gate": 0.3
+        },
+        {
+          "active": true,
+          "note": "F4",
+          "velocity": 0.75,
+          "gate": 0.35
+        },
+        {
+          "active": true,
+          "note": "E4",
+          "velocity": 0.65,
+          "gate": 0.3
+        },
+        {
+          "active": true,
+          "note": "A4",
+          "velocity": 0.75,
+          "gate": 0.35
+        },
+        {
+          "active": true,
+          "note": "E4",
+          "velocity": 0.65,
+          "gate": 0.3
+        },
+        {
+          "active": true,
+          "note": "B4",
+          "velocity": 0.7,
+          "gate": 0.35
+        },
+        {
+          "active": true,
+          "note": "C4",
+          "velocity": 0.65,
+          "gate": 0.3
+        },
+        {
+          "active": true,
+          "note": "E4",
+          "velocity": 0.75,
+          "gate": 0.35
+        },
+        {
+          "active": true,
+          "note": "B4",
+          "velocity": 0.65,
+          "gate": 0.3
+        },
+        {
+          "active": true,
+          "note": "C4",
+          "velocity": 0.7,
+          "gate": 0.35
+        },
+        {
+          "active": true,
+          "note": "A3",
+          "velocity": 0.65,
+          "gate": 0.3
+        }
+      ]
+    },
+    {
+      "id": "track-3",
+      "name": "Ch 3: Gong & Slenthem Bass",
+      "channelNumber": 3,
+      "type": "bass",
+      "color": "#10b981",
+      "muted": false,
+      "solo": false,
+      "volume": 0,
+      "pan": 0,
+      "waveform": "triangle",
+      "envelope": {
+        "attack": 0.015,
+        "decay": 0.35,
+        "sustain": 0.6,
+        "release": 0.25
+      },
+      "arp": {
+        "enabled": false,
+        "rate": "1/16",
+        "pattern": "octave",
+        "octaves": 1
+      },
+      "octaveOffset": 0,
+      "steps": [
+        {
+          "active": true,
+          "note": "A1",
+          "velocity": 1,
+          "gate": 0.85
+        },
+        {
+          "active": false,
+          "note": "A1",
+          "velocity": 0.8,
+          "gate": 0.5
+        },
+        {
+          "active": false,
+          "note": "A1",
+          "velocity": 0.8,
+          "gate": 0.5
+        },
+        {
+          "active": true,
+          "note": "E2",
+          "velocity": 0.75,
+          "gate": 0.5
+        },
+        {
+          "active": true,
+          "note": "A2",
+          "velocity": 0.9,
+          "gate": 0.7
+        },
+        {
+          "active": false,
+          "note": "A2",
+          "velocity": 0.8,
+          "gate": 0.5
+        },
+        {
+          "active": true,
+          "note": "C2",
+          "velocity": 0.8,
+          "gate": 0.6
+        },
+        {
+          "active": true,
+          "note": "E2",
+          "velocity": 0.75,
+          "gate": 0.5
+        },
+        {
+          "active": true,
+          "note": "F2",
+          "velocity": 0.95,
+          "gate": 0.8
+        },
+        {
+          "active": false,
+          "note": "F2",
+          "velocity": 0.8,
+          "gate": 0.5
+        },
+        {
+          "active": true,
+          "note": "E2",
+          "velocity": 0.8,
+          "gate": 0.6
+        },
+        {
+          "active": true,
+          "note": "C2",
+          "velocity": 0.75,
+          "gate": 0.5
+        },
+        {
+          "active": true,
+          "note": "D2",
+          "velocity": 0.85,
+          "gate": 0.7
+        },
+        {
+          "active": false,
+          "note": "D2",
+          "velocity": 0.8,
+          "gate": 0.5
+        },
+        {
+          "active": true,
+          "note": "E2",
+          "velocity": 0.9,
+          "gate": 0.7
+        },
+        {
+          "active": true,
+          "note": "E1",
+          "velocity": 0.85,
+          "gate": 0.6
+        }
+      ]
+    },
+    {
+      "id": "track-4",
+      "name": "Ch 4: Kendang & Alam Rhythm",
+      "channelNumber": 4,
+      "type": "drums",
+      "color": "#f59e0b",
+      "muted": false,
+      "solo": false,
+      "volume": -1,
+      "pan": 0,
+      "waveform": "square",
+      "envelope": {
+        "attack": 0.001,
+        "decay": 0.12,
+        "sustain": 0.05,
+        "release": 0.05
+      },
+      "arp": {
+        "enabled": false,
+        "rate": "1/16",
+        "pattern": "octave",
+        "octaves": 1
+      },
+      "octaveOffset": 0,
+      "steps": [
+        {
+          "active": true,
+          "note": "C2",
+          "velocity": 0.95,
+          "gate": 0.5,
+          "drumSounds": {
+            "kick": true,
+            "snare": false,
+            "hihat_closed": true,
+            "hihat_open": false,
+            "zap": false
+          }
+        },
+        {
+          "active": false,
+          "note": "C2",
+          "velocity": 0.5,
+          "gate": 0.5,
+          "drumSounds": {
+            "kick": false,
+            "snare": false,
+            "hihat_closed": false,
+            "hihat_open": false,
+            "zap": false
+          }
+        },
+        {
+          "active": true,
+          "note": "C2",
+          "velocity": 0.7,
+          "gate": 0.5,
+          "drumSounds": {
+            "kick": false,
+            "snare": false,
+            "hihat_closed": true,
+            "hihat_open": false,
+            "zap": false
+          }
+        },
+        {
+          "active": false,
+          "note": "C2",
+          "velocity": 0.5,
+          "gate": 0.5,
+          "drumSounds": {
+            "kick": false,
+            "snare": false,
+            "hihat_closed": false,
+            "hihat_open": false,
+            "zap": false
+          }
+        },
+        {
+          "active": true,
+          "note": "C2",
+          "velocity": 0.9,
+          "gate": 0.5,
+          "drumSounds": {
+            "kick": false,
+            "snare": true,
+            "hihat_closed": true,
+            "hihat_open": false,
+            "zap": false
+          }
+        },
+        {
+          "active": false,
+          "note": "C2",
+          "velocity": 0.5,
+          "gate": 0.5,
+          "drumSounds": {
+            "kick": false,
+            "snare": false,
+            "hihat_closed": false,
+            "hihat_open": false,
+            "zap": false
+          }
+        },
+        {
+          "active": true,
+          "note": "C2",
+          "velocity": 0.75,
+          "gate": 0.5,
+          "drumSounds": {
+            "kick": true,
+            "snare": false,
+            "hihat_closed": true,
+            "hihat_open": false,
+            "zap": false
+          }
+        },
+        {
+          "active": true,
+          "note": "C2",
+          "velocity": 0.7,
+          "gate": 0.5,
+          "drumSounds": {
+            "kick": false,
+            "snare": false,
+            "hihat_closed": false,
+            "hihat_open": true,
+            "zap": false
+          }
+        },
+        {
+          "active": true,
+          "note": "C2",
+          "velocity": 0.95,
+          "gate": 0.5,
+          "drumSounds": {
+            "kick": true,
+            "snare": false,
+            "hihat_closed": true,
+            "hihat_open": false,
+            "zap": false
+          }
+        },
+        {
+          "active": false,
+          "note": "C2",
+          "velocity": 0.5,
+          "gate": 0.5,
+          "drumSounds": {
+            "kick": false,
+            "snare": false,
+            "hihat_closed": false,
+            "hihat_open": false,
+            "zap": false
+          }
+        },
+        {
+          "active": true,
+          "note": "C2",
+          "velocity": 0.7,
+          "gate": 0.5,
+          "drumSounds": {
+            "kick": false,
+            "snare": false,
+            "hihat_closed": true,
+            "hihat_open": false,
+            "zap": false
+          }
+        },
+        {
+          "active": false,
+          "note": "C2",
+          "velocity": 0.5,
+          "gate": 0.5,
+          "drumSounds": {
+            "kick": false,
+            "snare": false,
+            "hihat_closed": false,
+            "hihat_open": false,
+            "zap": false
+          }
+        },
+        {
+          "active": true,
+          "note": "C2",
+          "velocity": 0.9,
+          "gate": 0.5,
+          "drumSounds": {
+            "kick": false,
+            "snare": true,
+            "hihat_closed": true,
+            "hihat_open": false,
+            "zap": false
+          }
+        },
+        {
+          "active": true,
+          "note": "C2",
+          "velocity": 0.8,
+          "gate": 0.5,
+          "drumSounds": {
+            "kick": true,
+            "snare": false,
+            "hihat_closed": false,
+            "hihat_open": false,
+            "zap": false
+          }
+        },
+        {
+          "active": true,
+          "note": "C2",
+          "velocity": 0.85,
+          "gate": 0.5,
+          "drumSounds": {
+            "kick": false,
+            "snare": true,
+            "hihat_closed": true,
+            "hihat_open": false,
+            "zap": false
+          }
+        },
+        {
+          "active": true,
+          "note": "C2",
+          "velocity": 0.8,
+          "gate": 0.5,
+          "drumSounds": {
+            "kick": false,
+            "snare": false,
+            "hihat_closed": false,
+            "hihat_open": true,
+            "zap": true
+          }
+        }
+      ]
+    }
+  ]
+}

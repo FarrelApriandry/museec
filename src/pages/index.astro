@@ -1,11 +1,23 @@
 ---
-import Welcome from '../components/Welcome.astro';
 import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import DawWorkstation from '../components/daw/DawWorkstation';
 ---
 
-<Layout>
-	<Welcome />
+<Layout title="Museec Professional Web DAW | Custom Microtonal & Multi-Track Audio Workstation">
+  <main class="h-screen w-screen overflow-hidden">
+    <DawWorkstation client:only="react">
+      <div slot="fallback" class="min-h-screen bg-[#0a0d14] flex flex-col items-center justify-center text-cyan-400 font-mono p-6">
+        <div class="border-2 border-cyan-500/40 bg-[#121722] p-8 rounded-xl text-center max-w-md shadow-[0_0_25px_rgba(6,182,212,0.3)]">
+          <div class="w-12 h-12 border-4 border-cyan-400 border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
+          <h2 class="text-xl font-bold tracking-widest uppercase mb-2 text-white">MUSEEC DAW v3</h2>
+          <p class="text-xs text-gray-400 uppercase tracking-wider mb-4">
+            INITIALIZING MULTI-TRACK AUDIO ENGINE &bull; LOADING SYNTHS & MICROTONAL TUNING
+          </p>
+          <div class="w-full bg-gray-900 h-2 rounded overflow-hidden border border-cyan-900">
+            <div class="bg-gradient-to-r from-amber-400 via-cyan-400 to-emerald-400 h-full w-2/3 animate-pulse"></div>
+          </div>
+        </div>
+      </div>
+    </DawWorkstation>
+  </main>
 </Layout>
